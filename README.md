@@ -117,4 +117,4 @@ Docs are located at [http://localhost:4000](http://localhost:4000).
 
 **Note:** Authentication has been removed from this API. You can access all endpoints without an access token.
 
-Read about `json-server` features like pagination, embedding and filtering at [npmjs.com/package/json-server](https://www.npmjs.com/package/json-server).
+Read about `json-server` features like pagination, embedding and filtering at [npmjs.com/package/json-server](https://www.npmjs.com/package/json-server/v/0.17.4).
