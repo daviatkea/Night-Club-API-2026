@@ -1,6 +1,6 @@
 {
-  "name": "nightclub-api-v2",
-  "version": "1.0.0",
+  "name": "nightclub-api-v3",
+  "version": "2.0.0",
   "description": "Mock API for the Night Club project",
   "main": "server.js",
   "scripts": {
