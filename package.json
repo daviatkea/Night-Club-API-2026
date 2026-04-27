@@ -1,0 +1,19 @@
+{
+  "name": "nightclub-api-v2",
+  "version": "1.0.0",
+  "description": "Mock API for the Night Club project",
+  "main": "server.js",
+  "scripts": {
+    "backup-db": "node scripts/copy-file.js db.json db_backup.json",
+    "dev": "node --watch server.js",
+    "reset-db": "node scripts/copy-file.js db_backup.json db.json",
+    "seed": "npm run reset-db",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
