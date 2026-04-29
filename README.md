@@ -30,20 +30,6 @@ npm run seed
 
 `reset-db` and `seed` both restore `db.json` from `db_backup.json`.
 
-## Health Check
-
-Use [http://localhost:4000/health](http://localhost:4000/health) to confirm that the server is running.
-
-Example response:
-
-```json
-{
-  "status": "ok",
-  "uptime": 12.34,
-  "timestamp": "2026-04-27T08:00:00.000Z"
-}
-```
-
 ## API Contract
 
 Core read endpoints:
