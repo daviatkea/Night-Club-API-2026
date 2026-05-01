@@ -43,6 +43,24 @@ Når API'et kører lokalt, er det tilgængeligt på:
 http://localhost:4000
 ```
 
+Hvis I bruger Next.js og henter billeder fra det lokale API med `next/image`, skal `next.config.js` tillade billeder fra `localhost`. Under lokal udvikling kan konfigurationen fx se sådan ud:
+
+```js
+images: {
+  dangerouslyAllowLocalIP: true,
+  remotePatterns: [
+    {
+      protocol: "http",
+      hostname: "localhost",
+      port: "4000",
+      pathname: "/**",
+    },
+  ],
+},
+```
+
+`dangerouslyAllowLocalIP: true` skal kun bruges under lokal udvikling. Når API'et flyttes til Render, skal den fjernes, og `remotePatterns` skal i stedet pege på Render-serverens hostname.
+
 Læs API-dokumentationen i [README.md](./README.md).
 
 Til aflevering skal API'et deployes til en fjernserver, så jeres frontend kan afprøves uden en lokal backend. Se [REMOTESERVER.md](./REMOTESERVER.md).
