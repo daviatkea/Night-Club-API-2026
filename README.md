@@ -73,10 +73,16 @@ Event objects include both overview fields and detail-page fields:
   "date": "2026-05-09T21:00:00+02:00",
   "doorsOpen": "2026-05-09T20:00:00+02:00",
   "asset": {
-    "url": "/file-bucket/event-thumb1.jpg"
+    "url": "/file-bucket/event-thumb1.jpg",
+    "width": 570,
+    "height": 403,
+    "alt": "Singer performing under purple stage lights"
   },
   "heroAsset": {
-    "url": "/file-bucket/event-hero1.jpg"
+    "url": "/file-bucket/event-hero1.jpg",
+    "width": 1170,
+    "height": 500,
+    "alt": "Singer performing to a packed purple-lit club"
   },
   "location": "Center Stage",
   "category": "House",
@@ -100,8 +106,11 @@ use the selected event as the source of available event dates, prefill the
 reservation date from `doorsOpen` or `date`, and include `eventId` in the
 reservation payload:
 
-`asset.url` points to a `570x403` event thumbnail for cards. `heroAsset.url`
-points to a `1170x500` hero image for event detail pages.
+`asset.url` points to an event thumbnail for cards, and `heroAsset.url` points
+to a hero image for event detail pages. Both image objects include `width` and
+`height`, so they can be passed directly to image components such as
+`next/image` when the layout does not use `fill`. They also include a short
+descriptive `alt` text.
 Event and reservation date-time values use ISO 8601 with an explicit Danish
 local offset, for example `+02:00` during Danish summer time.
 

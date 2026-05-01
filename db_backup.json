@@ -10,10 +10,16 @@
       "date": "2026-05-09T21:00:00+02:00",
       "doorsOpen": "2026-05-09T20:00:00+02:00",
       "asset": {
-        "url": "/file-bucket/event-thumb1.jpg"
+        "url": "/file-bucket/event-thumb1.jpg",
+        "width": 570,
+        "height": 403,
+        "alt": "Singer performing under purple stage lights"
       },
       "heroAsset": {
-        "url": "/file-bucket/event-hero1.jpg"
+        "url": "/file-bucket/event-hero1.jpg",
+        "width": 1170,
+        "height": 500,
+        "alt": "Singer performing to a packed purple-lit club"
       },
       "location": "Center Stage",
       "category": "House",
@@ -46,10 +52,16 @@
       "date": "2026-05-16T21:00:00+02:00",
       "doorsOpen": "2026-05-16T20:00:00+02:00",
       "asset": {
-        "url": "/file-bucket/event-thumb2.jpg"
+        "url": "/file-bucket/event-thumb2.jpg",
+        "width": 570,
+        "height": 403,
+        "alt": "Male vocalist onstage under pink lights"
       },
       "heroAsset": {
-        "url": "/file-bucket/event-hero2.jpg"
+        "url": "/file-bucket/event-hero2.jpg",
+        "width": 1170,
+        "height": 500,
+        "alt": "Male performer singing to a dark club crowd"
       },
       "location": "Center Stage",
       "category": "Retro",
@@ -82,10 +94,16 @@
       "date": "2026-05-22T21:00:00+02:00",
       "doorsOpen": "2026-05-22T20:30:00+02:00",
       "asset": {
-        "url": "/file-bucket/event-thumb3.jpg"
+        "url": "/file-bucket/event-thumb3.jpg",
+        "width": 570,
+        "height": 403,
+        "alt": "Performer in a white jacket singing under blue lights"
       },
       "heroAsset": {
-        "url": "/file-bucket/event-hero3.jpg"
+        "url": "/file-bucket/event-hero3.jpg",
+        "width": 1170,
+        "height": 500,
+        "alt": "Solo performer leaning into a blue-lit crowd"
       },
       "location": "Center Stage",
       "category": "Bass",
@@ -118,10 +136,16 @@
       "date": "2026-05-30T21:00:00+02:00",
       "doorsOpen": "2026-05-30T20:30:00+02:00",
       "asset": {
-        "url": "/file-bucket/event-thumb4.jpg"
+        "url": "/file-bucket/event-thumb4.jpg",
+        "width": 570,
+        "height": 403,
+        "alt": "Club crowd raising hands toward red stage lights"
       },
       "heroAsset": {
-        "url": "/file-bucket/event-hero4.jpg"
+        "url": "/file-bucket/event-hero4.jpg",
+        "width": 1170,
+        "height": 500,
+        "alt": "Live band playing for a red-lit dance floor"
       },
       "location": "Basement Room",
       "category": "Techno",
@@ -154,10 +178,16 @@
       "date": "2026-06-06T21:00:00+02:00",
       "doorsOpen": "2026-06-06T20:00:00+02:00",
       "asset": {
-        "url": "/file-bucket/event-thumb5.jpg"
+        "url": "/file-bucket/event-thumb5.jpg",
+        "width": 570,
+        "height": 403,
+        "alt": "Group of smiling guests posing with glow sticks"
       },
       "heroAsset": {
-        "url": "/file-bucket/event-hero5.jpg"
+        "url": "/file-bucket/event-hero5.jpg",
+        "width": 1170,
+        "height": 500,
+        "alt": "Party guests posing in a busy nightclub crowd"
       },
       "location": "Center Stage",
       "category": "Disco",
@@ -190,10 +220,16 @@
       "date": "2026-06-13T21:00:00+02:00",
       "doorsOpen": "2026-06-13T20:00:00+02:00",
       "asset": {
-        "url": "/file-bucket/event-thumb6.jpg"
+        "url": "/file-bucket/event-thumb6.jpg",
+        "width": 570,
+        "height": 403,
+        "alt": "Female vocalist singing under green lights"
       },
       "heroAsset": {
-        "url": "/file-bucket/event-hero6.jpg"
+        "url": "/file-bucket/event-hero6.jpg",
+        "width": 1170,
+        "height": 500,
+        "alt": "Singer performing to a green-lit club crowd"
       },
       "location": "Center Stage",
       "category": "House",
@@ -226,10 +262,16 @@
       "date": "2026-06-20T21:00:00+02:00",
       "doorsOpen": "2026-06-20T20:00:00+02:00",
       "asset": {
-        "url": "/file-bucket/event-thumb7.jpg"
+        "url": "/file-bucket/event-thumb7.jpg",
+        "width": 570,
+        "height": 403,
+        "alt": "Dance floor crowd under pink and blue lasers"
       },
       "heroAsset": {
-        "url": "/file-bucket/event-hero7.jpg"
+        "url": "/file-bucket/event-hero7.jpg",
+        "width": 1170,
+        "height": 500,
+        "alt": "Packed dance floor with pink and blue stage lights"
       },
       "location": "Center Stage",
       "category": "Latin",
@@ -262,10 +304,16 @@
       "date": "2026-06-27T21:00:00+02:00",
       "doorsOpen": "2026-06-27T20:30:00+02:00",
       "asset": {
-        "url": "/file-bucket/event-thumb8.jpg"
+        "url": "/file-bucket/event-thumb8.jpg",
+        "width": 570,
+        "height": 403,
+        "alt": "Guests watching a purple-lit club stage"
       },
       "heroAsset": {
-        "url": "/file-bucket/event-hero8.jpg"
+        "url": "/file-bucket/event-hero8.jpg",
+        "width": 1170,
+        "height": 500,
+        "alt": "Crowd gathered by tables near a purple-lit stage"
       },
       "location": "Velvet Lounge",
       "category": "R&B",
@@ -337,98 +385,140 @@
     {
       "id": 1,
       "asset": {
-        "url": "/file-bucket/gallery1_big.jpg"
+        "url": "/file-bucket/gallery1_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "DJ booth overlooking a crowded dance floor"
       },
       "description": "A photo"
     },
     {
       "id": 2,
       "asset": {
-        "url": "/file-bucket/gallery2_big.jpg"
+        "url": "/file-bucket/gallery2_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Two club guests smiling under red lights"
       },
       "description": "A photo"
     },
     {
       "id": 3,
       "asset": {
-        "url": "/file-bucket/gallery3_big.jpg"
+        "url": "/file-bucket/gallery3_big.jpg",
+        "width": 970,
+        "height": 674,
+        "alt": "Female singer performing under blue and pink lights"
       },
       "description": "A photo"
     },
     {
       "id": 4,
       "asset": {
-        "url": "/file-bucket/gallery4_big.jpg"
+        "url": "/file-bucket/gallery4_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Blonde guest posing under red club lights"
       },
       "description": "A photo"
     },
     {
       "id": 5,
       "asset": {
-        "url": "/file-bucket/gallery5_big.jpg"
+        "url": "/file-bucket/gallery5_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Guitarist playing on a dark club stage"
       },
       "description": "A photo"
     },
     {
       "id": 6,
       "asset": {
-        "url": "/file-bucket/gallery6_big.jpg"
+        "url": "/file-bucket/gallery6_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Guests dancing at the front of the stage"
       },
       "description": "A photo"
     },
     {
       "id": 7,
       "asset": {
-        "url": "/file-bucket/gallery7_big.jpg"
+        "url": "/file-bucket/gallery7_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Crowd raising hands during a red-lit concert"
       },
       "description": "A photo"
     },
     {
       "id": 8,
       "asset": {
-        "url": "/file-bucket/gallery8_big.jpg"
+        "url": "/file-bucket/gallery8_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Saxophonist playing under blue stage lights"
       },
       "description": "A photo"
     },
     {
       "id": 9,
       "asset": {
-        "url": "/file-bucket/gallery9_big.jpg"
+        "url": "/file-bucket/gallery9_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Two guests posing together in the club"
       },
       "description": "A photo"
     },
     {
       "id": 10,
       "asset": {
-        "url": "/file-bucket/gallery10_big.jpg"
+        "url": "/file-bucket/gallery10_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Bearded guitarist performing under purple lights"
       },
       "description": "A photo"
     },
     {
       "id": 11,
       "asset": {
-        "url": "/file-bucket/gallery11_big.jpg"
+        "url": "/file-bucket/gallery11_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Female vocalist singing into a stage microphone"
       },
       "description": "A photo"
     },
     {
       "id": 12,
       "asset": {
-        "url": "/file-bucket/gallery12_big.jpg"
+        "url": "/file-bucket/gallery12_big.jpg",
+        "width": 570,
+        "height": 256,
+        "alt": "DJ performing for a colorful dance floor"
       },
       "description": "A photo"
     },
     {
       "id": 13,
       "asset": {
-        "url": "/file-bucket/gallery13_big.jpg"
+        "url": "/file-bucket/gallery13_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Three guests posing together at the club"
       },
       "description": "A photo"
     },
     {
       "id": 14,
       "asset": {
-        "url": "/file-bucket/gallery14_big.jpg"
+        "url": "/file-bucket/gallery14_big.jpg",
+        "width": 970,
+        "height": 560,
+        "alt": "Two costumed performers posing under red lights"
       },
       "description": "A photo"
     }
@@ -439,7 +529,10 @@
       "name": "John Doe",
       "content": "Vi bookede bord til seks personer, og hele aftenen spillede bare. Personalet var hurtige, musikken var skarp, og stemningen føltes eksklusiv uden at blive stiv.",
       "asset": {
-        "url": "/file-bucket/testimonial_1.jpg"
+        "url": "/file-bucket/testimonial_1.jpg",
+        "width": 170,
+        "height": 170,
+        "alt": "Portrait of John Doe in a suit"
       },
       "facebook": "http://facebook.com",
       "twitter": "http://twitter.com"
@@ -449,7 +542,10 @@
       "name": "Mary Doe",
       "content": "Jeg var der til en themed night med mine kolleger, og det var en af de få kluboplevelser i København, hvor både lyd, service og crowd ramte rigtigt på samme tid. Det, der især overraskede mig, var hvor nemt det var at skifte mellem de forskellige områder i løbet af aftenen uden at føle, at man forlod festen. Vi startede med drinks og samtaler i loungen, gik videre til hovedgulvet, da DJ-settet toppede, og sluttede aftenen tilbage ved bordet uden at miste energien. Personalet var nærværende hele vejen, og det gjorde faktisk en større forskel, end jeg havde forventet, fordi aftenen føltes velorganiseret uden at blive stiv eller upersonlig.",
       "asset": {
-        "url": "/file-bucket/testimonial_2.jpg"
+        "url": "/file-bucket/testimonial_2.jpg",
+        "width": 170,
+        "height": 170,
+        "alt": "Portrait of Mary Doe smiling"
       },
       "facebook": "http://facebook.com",
       "twitter": "http://twitter.com"
@@ -459,7 +555,10 @@
       "name": "Steven Doe",
       "content": "Night Club er blevet vores faste sted til store weekender. Man kan starte roligt i loungen og ende på gulvet uden at føle, at aftenen mister tempo undervejs.",
       "asset": {
-        "url": "/file-bucket/testimonial_3.jpg"
+        "url": "/file-bucket/testimonial_3.jpg",
+        "width": 170,
+        "height": 170,
+        "alt": "Portrait of Steven Doe in a suit"
       },
       "facebook": "http://facebook.com",
       "twitter": "http://twitter.com"
