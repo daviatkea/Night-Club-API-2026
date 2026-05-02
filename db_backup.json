@@ -527,7 +527,7 @@
     {
       "id": 1,
       "name": "John Doe",
-      "content": "Vi bookede bord til seks personer, og hele aftenen spillede bare. Personalet var hurtige, musikken var skarp, og stemningen føltes eksklusiv uden at blive stiv.",
+      "content": "We booked a table for six people, and the whole evening just worked. The staff were quick, the music was sharp, and the atmosphere felt exclusive without becoming stiff.",
       "asset": {
         "url": "/file-bucket/testimonial_1.jpg",
         "width": 170,
@@ -540,7 +540,7 @@
     {
       "id": 2,
       "name": "Mary Doe",
-      "content": "Jeg var der til en themed night med mine kolleger, og det var en af de få kluboplevelser i København, hvor både lyd, service og crowd ramte rigtigt på samme tid. Det, der især overraskede mig, var hvor nemt det var at skifte mellem de forskellige områder i løbet af aftenen uden at føle, at man forlod festen. Vi startede med drinks og samtaler i loungen, gik videre til hovedgulvet, da DJ-settet toppede, og sluttede aftenen tilbage ved bordet uden at miste energien. Personalet var nærværende hele vejen, og det gjorde faktisk en større forskel, end jeg havde forventet, fordi aftenen føltes velorganiseret uden at blive stiv eller upersonlig.",
+      "content": "I went to a themed night with my colleagues, and it was one of the few club experiences in Copenhagen where the sound, service, and crowd all hit the right note at the same time. What especially surprised me was how easy it was to move between the different areas during the evening without feeling like we were leaving the party. We started with drinks and conversation in the lounge, moved on to the main floor when the DJ set peaked, and ended the night back at our table without losing the energy. The staff were present throughout, and that actually made a bigger difference than I expected, because the evening felt well organized without becoming stiff or impersonal.",
       "asset": {
         "url": "/file-bucket/testimonial_2.jpg",
         "width": 170,
@@ -553,7 +553,7 @@
     {
       "id": 3,
       "name": "Steven Doe",
-      "content": "Night Club er blevet vores faste sted til store weekender. Man kan starte roligt i loungen og ende på gulvet uden at føle, at aftenen mister tempo undervejs.",
+      "content": "Night Club has become our go-to place for big weekends. You can start calmly in the lounge and end up on the dance floor without feeling like the evening loses momentum along the way.",
       "asset": {
         "url": "/file-bucket/testimonial_3.jpg",
         "width": 170,
