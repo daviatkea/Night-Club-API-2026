@@ -14,12 +14,6 @@ npm start
 
 The API will be available at [http://localhost:4000](http://localhost:4000).
 
-For local development with auto-reload:
-
-```bash
-npm run dev
-```
-
 Useful data scripts:
 
 ```bash
@@ -53,12 +47,7 @@ Core write endpoints:
 - `DELETE /comments/:id`
 - `DELETE /reservations/:id`
 
-System endpoint:
-
-- `GET /health`
-
-Events are read-only. `POST`, `PUT`, `PATCH` and `DELETE` requests to
-`/events` or `/events/:id` return `405 Method Not Allowed`.
+Events are read-only.
 
 Event objects include both overview fields and detail-page fields:
 
@@ -100,34 +89,18 @@ Event objects include both overview fields and detail-page fields:
 ```
 
 Event objects do not include a reservation URL. The frontend should build that
-route from the event id, for example `/reservations?eventId=1`, and the booking
-form should still submit to `POST /reservations`. For event-based reservations,
-use the selected event as the source of available event dates, prefill the
-reservation date from `doorsOpen` or `date`, and include `eventId` in the
-reservation payload:
+route from the event id.
 
 `asset.url` points to an event thumbnail for cards, and `heroAsset.url` points
 to a hero image for event detail pages. Both image objects include `width` and
 `height`, so they can be passed directly to image components such as
-`next/image` when the layout does not use `fill`. They also include a short
+`next/image`. They also include a short
 descriptive `alt` text.
-Event and reservation date-time values use ISO 8601 with an explicit Danish
-local offset, for example `+02:00` during Danish summer time.
 
 Event comments are stored in the `comments` collection and reference events by
 `eventId`. To show comments on an event detail page, fetch the event and then
 fetch its comments with `GET /comments?eventId=1`. A numeric event request can
 also embed comments with `GET /events/1?_embed=comments`.
-
-```json
-{
-  "id": 1,
-  "eventId": 1,
-  "name": "Robert Downey Junior",
-  "content": "Best club ever!",
-  "date": "2026-05-09T22:15:00+02:00"
-}
-```
 
 To create a new event comment, post to `POST /comments`:
 
@@ -137,18 +110,6 @@ To create a new event comment, post to `POST /comments`:
   "name": "Robert Downey Junior",
   "content": "What an amazing evening!",
   "date": "2026-05-09T22:15:00+02:00"
-}
-```
-
-```json
-{
-  "name": "Robert Downey Jr",
-  "email": "downey@mail.dk",
-  "table": "5",
-  "guests": "4",
-  "date": "2026-05-09T20:00:00+02:00",
-  "phone": "2342 78986",
-  "eventId": 1
 }
 ```
 
@@ -165,7 +126,7 @@ GET /comments?eventId=1&_page=1&_limit=5
 
 ## Validation And Errors
 
-The server now validates write requests for these collections:
+The server validates write requests for these collections:
 
 - `comments`
 - `gallery`
@@ -174,9 +135,7 @@ The server now validates write requests for these collections:
 - `reservations`
 - `newsletters`
 
-All error responses use the same JSON structure. `details` is always an array.
-For validation and conflict errors, it contains field-level information. For
-general errors, it can be empty.
+All error responses use the same JSON structure. For validation and conflict errors, it contains field-level information.
 
 ```json
 {
