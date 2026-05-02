@@ -6,7 +6,7 @@ Relanceringen er blandt andet bundet op på klubbens nye website. Sitets visuell
 
 Night Club skal fungere som et moderne event- og bookingwebsite, hvor besøgende kan opdage kommende events, læse mere om det enkelte event, kommentere på events, reservere bord, tilmelde sig nyhedsbrev og kontakte klubben.
 
-## Tekniske Krav
+## Tekniske krav
 
 Sitet skal som minimum være opbygget med HTML, CSS og JavaScript. I må gerne anvende et framework eller andre værktøjer, så længe de bygger på disse teknologier.
 
@@ -28,7 +28,7 @@ Der skal være fallback-UI for data eller indhold, der er ved at blive hentet. A
 
 Hvis projektet bygges i Next.js, skal data fetching fra API'et som udgangspunkt foregå på serveren. Det betyder, at data skal hentes i Server Components, server functions, route handlers eller tilsvarende server-side kode. API-data må ikke hentes i `useEffect` i client components. `useEffect` må gerne bruges til interaktion, lokal UI-state, formularfeedback og browser-specifik funktionalitet, men de må ikke erstatte server-side data fetching.
 
-## Arbejde Med API'et
+## Arbejde med API'et
 
 Sitet skal køre op mod et API, hvor I både kan hente indholdsdata med `GET` og sende brugerdata med `POST`.
 
@@ -67,7 +67,7 @@ Læs API-dokumentationen i [README.md](./README.md).
 
 Til aflevering skal API'et deployes til en fjernserver, så jeres frontend(app) kan afprøves uden en lokal backend(api). Se [REMOTESERVER.md](./REMOTESERVER.md).
 
-### Centrale Endpoints
+### Centrale endpoints
 
 I skal som minimum arbejde med disse endpoints:
 
@@ -101,7 +101,7 @@ På den baggrund vurderes gruppens evne til at træffe professionelle og velover
 
 I må gerne udfordre designet og lave mindre justeringer, hvis det styrker UI-konventioner, best practice og brugervenlighed. Der er dog ikke tale om et redesign, og løsningen skal som udgangspunkt følge det eksisterende design.
 
-## Generelle Krav
+## Generelle krav
 
 Sitet skal bygges efter layoutet og den visuelle retning i designmaterialet.
 
@@ -276,7 +276,7 @@ Når der klikkes på et event, føres brugeren til eventets detail-side. I kan b
 /events/neon-nights-grand-opening
 ```
 
-## Enkelt Event
+## Enkelt event
 
 På denne side præsenteres et enkelt event.
 
